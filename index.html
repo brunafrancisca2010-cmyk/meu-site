@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site Simples."/>
+        <title>Soluções digitais</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+                color: #fff;
+            }
+
+            .topo {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 40px;
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+            }
+
+            .logo {
+                text-decoration: none;
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+
+            .menu {
+                display: flex;
+                gap: 15px;
+            }
+
+            .menu a {
+                text-decoration: none;
+                color: #fff;
+                padding: 10px 16px;
+                border-radius: 8px;
+                background: rgba(255, 255, 255, 0.15);
+                transition: background 0.3s, transform 0.3s;
+            }
+
+            .menu a:hover {
+                background: #fff;
+                color: #6a11cb;
+                transform: translateY(-2px);
+            }
+
+            .banner {
+                padding: 80px 40px;
+                text-align: center;
+            }
+
+            .banner h1 {
+                font-size: 2.5rem;
+                margin-bottom: 15px;
+            }
+
+            .banner p {
+                font-size: 1.1rem;
+                margin-bottom: 25px;
+                color: #f0eaff;
+            }
+
+            .anuncio {
+                display: inline-block;
+                padding: 15px 25px;
+                background: #fff;
+                color: #6a11cb;
+                border-radius: 12px;
+                font-weight: bold;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            }
+        </style>
+    </head>
+    <body>
+        <header class="topo">
+            <a class="logo" href="#inicio">nova<span>.</span></a>
+            <nav class="menu" aria-label="Navegação principal">
+                <a href="#sobre">Sobre</a>
+                <a href="#contatos">Contatos</a>
+            </nav>
+        </header>
+
+        <main class="banner">
+            <h1>Seu anúncio em destaque</h1>
+            <p>Uma página moderna com cores roxo e azul, pronta para chamar atenção.</p>
+            <div class="anuncio">Oferta especial - confira agora!</div>
+        </main>
+    </body>
+</html>
